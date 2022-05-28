@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first-title{
+
+    padding: 30px 8px;
+    background-color:#fffbe2;
+    border-bottom: solid 1px #f0de69;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 20px;
+}
+input{
+    width: 416px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f6f8;
+   
+}
+button{
+    padding: 0px 16px;
+    width: 416px;
+    height: 40px;
+    background-color: #1878f3;
+    color: white;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+
+img{
+    margin-top: 20px;
+    width: 112;
+    height: 40px;
+}
+.senha{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.senha button{
+    width: 142px;
+    height: 36px;
+    background-color: #00a400;
+    color: white;
+}
+
+footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c6c2db;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
